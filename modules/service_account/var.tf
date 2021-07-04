@@ -1,13 +1,13 @@
 variable "project_id" {
         type = string
-        default = ""
+        #default = ""
         
   
 }
 
 variable "display_name" {
         type = string
-        default = ""
+        #default = ""
         
   
 }
