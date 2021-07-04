@@ -5,7 +5,6 @@ provider "template" {
 provider "google" {
   version = "=3.23.0"
   project = var.project_id
-  credentials = "service.json"
 }
 
 provider "google-beta" {
