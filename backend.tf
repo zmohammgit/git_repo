@@ -6,7 +6,7 @@ provider "template" {
 provider "google" {
   version = "=3.23.0"
   project = var.project_id
-  #credentials = "service.json"
+  
 }
 
 provider "google-beta" {
@@ -21,7 +21,7 @@ terraform {
   backend "gcs" {
     bucket = "buckey-2611"
     prefix = "terraform/statefile"
-    #credentials = "service.json"
+    
    
    
     
