@@ -12,3 +12,34 @@ variable "location" {
         default     =  "US-CENTRAL1"
   
 }
+
+
+variable "vm_name" {
+
+    #default = "vminstancego"
+  
+}
+
+variable "bucket_name" {
+
+
+
+
+
+  
+}
+
+variable "dataset_location" {
+
+
+  
+}
+
+variable "dataset_id" {
+
+  
+}
+
+variable "zone" {
+  
+}
