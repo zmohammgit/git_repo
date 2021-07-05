@@ -43,3 +43,11 @@ variable "dataset_id" {
 variable "zone" {
   
 }
+
+variable "display_name" {
+  
+}
+
+variable "account_id" {
+  
+}
