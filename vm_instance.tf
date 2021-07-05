@@ -1,9 +1,10 @@
 module "vm-instance-1" {
   source        = "./modules/vm_instance"
-  name        = "vminstance1"
-  project_id    = "expanded-origin-316105"
-  location        = "US-CENTRAL1"
+  name        =    var.vm_name
+  project_id    =  var.project_id
+  location        = var.location
   #iam_members = []
-  zone          = "us-central1-c"
+  zone          =  var.zone
+  
 }
 
