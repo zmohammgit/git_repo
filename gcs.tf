@@ -1,9 +1,7 @@
-
 module "test-bucket-1" {
   source      = "./modules/gcs"
-  name        = "indcoe_bucket_11"
-  project_id  = "expanded-origin-316105"
-  location    = "US-CENTRAL1"
+  name        = var.bucket_name
+  project_id  = var.project_id
+  location    = var.location
   #iam_members = []
 }
-
