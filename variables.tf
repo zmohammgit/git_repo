@@ -1,6 +1,6 @@
 variable "project_id" {
         type = string
-        default = "expanded-origin-316105"
+        default = "secops-316111"
         
   
 }
