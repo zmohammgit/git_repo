@@ -19,8 +19,8 @@ provider "google-beta" {
 terraform {
  # required_version = "=1.0.0"
   backend "gcs" {
-    bucket = "buckey-2611"
-    prefix = "terraform/statefile"
+    bucket = "gcs-jenkins-tf-backend"
+    prefix = "secops-316111/main"
     
    
    
