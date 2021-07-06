@@ -1,5 +1,5 @@
 vm_name= "vminstancego"
-project_id= "expanded-origin-316105"
+project_id= "secops-316111"
 bucket_name = "indcoe_26122"
 location =   "US-CENTRAL1"
 dataset_location= "US"
